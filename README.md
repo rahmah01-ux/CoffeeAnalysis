@@ -6,7 +6,36 @@ This project analyses coffee sales across multiple cities in India with a focus 
 
 ### 🚀 Objective: To explore coffee sales data across Indian cities and evaluate performance on Mondays.
 
-Scope: Includes analysis of sales growth, top-selling products, and city-level performance.
+## Key Questions
+### 1. Coffee Consumers Count
+How many people in each city are estimated to consume coffee, given that 25% of the population does?
+
+### 2.Total Revenue from Coffee Sales
+What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
+
+### 3.Sales Count for Each Product
+How many units of each coffee product have been sold?
+
+### 4.Average Sales Amount per City
+What is the average sales amount per customer in each city?
+
+### 5.City Population and Coffee Consumers
+Provide a list of cities along with their populations and estimated coffee consumers.
+
+### 6.Top Selling Products by City
+What are the top 3 selling products in each city based on sales volume?
+
+### 7.Customer Segmentation by City
+How many unique customers are there in each city who have purchased coffee products?
+
+### 8.Average Sale vs Rent
+Find each city and their average sale per customer and avg rent per customer
+
+### 9.Monthly Sales Growth
+Sales growth rate: Calculate the percentage growth (or decline) in sales over different time periods (monthly).
+
+### 10.Market Potential Analysis
+Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated coffee consumer
 
 ## Tools Used:
 SQL 
@@ -30,7 +59,7 @@ Excel
 
 ## 📈 Example Query Snippet
 
-### Calculate the percentage growth(or decline) in sales over different time period (monthly) by each city
+### Calculating the % growth (or decline) in sales over different time period (monthly) by each city
 
 ```sql
 WITH monthly_sales
@@ -72,6 +101,24 @@ WHERE
 
 ```
 
+### Recommendations
+
+After analysing the data, the recommended top 3 cities for new store opening are:
+
+City 1 : Pune
+1. average_rent_per_customer is low
+2. Highest total revenue
+3. average_cost_per_customer is also high
+
+City 2 : Dehli
+1.estimated_coffe_consumers_in_millions is high 7.7mill
+2.total_customer is high 68
+3.average_rent_per_customer is low (under 500)
+
+City 3 : Japiur
+1. Highest customer count 
+2. Average rent per customer is low 156
+3. average_sale_per_customer is better 11.6k
 
 
 
